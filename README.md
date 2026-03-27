@@ -494,6 +494,26 @@ non-linear interactions between features that Ridge's linear model cannot
 represent — particularly interactions between lag features, promotional
 status, and product family.
 
+### Sales Over Time
+
+![Sales Over Time](assets/sales_over_time.png)
+
+### Model Comparison
+
+![Model Comparison](assets/model_comparison.png)
+
+### Feature Importances
+
+![Feature Importances](assets/feature_importances.png)
+
+### Elasticity Distribution
+
+![Elasticity Distribution](assets/elasticity_distribution.png)
+
+### Pricing Recommendations
+
+![Pricing Recommendations](assets/pricing_recommendations.png)
+
 ### Feature Importances (Random Forest)
 
 Top predictive features in order of importance:
