@@ -1,0 +1,38 @@
+# ── Data ───────────────────────────────────────────────
+data/raw/
+data/processed/*.parquet
+data/processed/*.csv
+data/processed/*.png
+
+# Keep placeholder and docs
+!data/README.md
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Environments ───────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ── Jupyter ────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── IDE ────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
